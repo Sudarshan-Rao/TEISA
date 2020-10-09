@@ -1,0 +1,126 @@
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.jumbotron{
+	background-image: url('/static/images/home2.jpg'); 
+	width: 100%; 
+	height: 100%;
+	font-color:black;
+	font-family: "Times New Roman", "Times", "serif";
+
+}
+.text{
+	font-size: 30px;
+}
+
+.display-3{
+	font-size: 4px;
+
+}
+
+.lead{
+	font-size:3px;
+}
+
+.btn{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.col-sm-8{
+	background-image: url('/static/images/neural.jpeg');
+}
+
+.col-sm-2{
+	background-image: url('/static/images/neural.jpeg');
+}
+
+.row{
+	background-color:darkcyan;
+}
+
+.al{
+	border: none;
+	background-image: url('/static/images/neural.jpeg');
+	color: lightcyan;
+
+}
+.mb{
+	color: lightcyan;
+}
+
+.alert.alert-success{
+	margin-top: 3%;
+	border: none;
+	background-color: lavender;
+	font-color: black;
+
+}
+
+#color1{
+	color:white;
+}
+
+.navc.navbar.navbar-expand-lg.navbar-ligh.bg-primary {
+	color:lightcyan;
+	background-color: darkslategray;
+}
+.cc{
+	color:lightcyan;
+	size: 60%;
+
+}
+.parah{
+	background-color: #d3d3d3;
+}
+
+.txt{
+	position: center; 
+	margin-top: 50px;
+	margin-bottom: 50px; 
+	font-family: 'Work Sans';
+    font-size: 120%;
+	display: block;
+    color:#000000FF;
+}
+.he{
+	font-family: 'Mina';
+    font-size: 200%;
+    line-height: 130%;
+    letter-spacing: .22em;
+    text-align: center;
+    word-spacing: .21em;
+    font-weight: bold;
+    color: #000000FF;
+}
+.spc{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.lst{
+	font-size: 28px;
+	color: black;
+}
+.guide{
+
+}

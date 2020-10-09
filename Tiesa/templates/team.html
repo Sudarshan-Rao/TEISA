@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Text Extraction APP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <script src="{{ url_for('static',filename='scripty.js') }}" ></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script src="{{ url_for('static',filename='hilitor.js') }}" ></script>
+
+  </head>
+   <style type=text/css>
+    .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+
+
+<div id="color1">
+  <nav class="navc navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="/" >TEISA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/about">About the Application <span class="sr-only">(current)</span></a>
+      </li>
+      
+        <li class="nav-item active">
+        <a class="nav-link" href="/features"> Highlighting features<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/team"> Team<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div>
+
+<div class="jumbotron">
+  <div class="display-3">TEISA</div>
+  <p class="lead" id="chntxt">Text Extraction from Images using State-of-the-art Algorithms </p>
+  <br><br><br><br><br><br><br>
+
+ 
+ 
+  
+<div  style="margin-top: 30px;">
+<h1>MEET THE TEAM</h1>
+<div  style="margin-top: 50px;">
+
+ <div class="column">
+    <div class="card">
+      <!--<img src="img3.jpg" alt="John" style="width:100%">-->
+      <div class="container">
+        <h2 class="he">Sudarshan Rao</h2>
+        <p class="title">1BG15IS062</p>
+      <!--  <p>Some text that describes me lorem ipsum ipsum lorem.</p>-->
+        <p>sudarshanmvrao@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="img3.jpg" alt="John" style="width:100%">-->
+      <div class="container">
+        <h2 class="he">Bharathi Vasisht.</h2>
+        <p class="title">1BG15IS063</p>
+      <!--  <p>Some text that describes me lorem ipsum ipsum lorem.</p>-->
+        <p>sudarshanmvrao@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="img3.jpg" alt="John" style="width:100%">-->
+      <div class="container">
+        <h2 class="he">Aditi J.</h2>
+        <p class="title">1BG15IS064</p>
+      <!--  <p>Some text that describes me lorem ipsum ipsum lorem.</p>-->
+        <p>sudarshanmvrao@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="img3.jpg" alt="John" style="width:100%">-->
+      <div class="container">
+        <h2 class="he">Aditya Bharadwaj.</h2>
+        <p class="title">1BG15IS066</p>
+      <!--  <p>Some text that describes me lorem ipsum ipsum lorem.</p>-->
+        <p>sudarshanmvrao@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+<div class="guide">
+  <h1>Under the guidance of </h1>
+
+  <h2>Mrs Srividhya S.</h2>
+  <h3>Assisstant professor</h3>
+  <h3>Department of ISE</h3>
+  <h3>BNMIT</h3>
+</div>
+
+</div>
+
+
+
+
+     <!-- <div class="jumbotron" style="background-image: url('static/images/bg1.jpg')">
+  <h1 class="display-3">Bass APP</h1>
+  <p class="lead" id="chntxt">This is a simple text extraction app:</p>
+</div>
+  <div class="container" >
+
+      <form  method = "POST" id="form"  action=""
+         enctype = "multipart/form-data">
+          <div class="form-group">
+              <strong>Preprocess image :</strong>
+              <input type="radio" name="preprocess" value="thresh">
+           <label>Thresholding</label>
+          <input type="radio" name="preprocess" value="blur">
+        <label>Guassian Blur</label>
+        <input type="radio" name="preprocess" value="scale">
+      
+                   <label>ScaleDown</label>
+          <input type="radio" name="preprocess" value="bif">
+                   <label>Bilateral-Filtering</label>
+      
+<!--        <label>something</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">
+        <label>Thresh</label>
+        <input type="radio" name="preprocess" value="thresh">--><br>
+        <!--<img src="{{result2}}">
+
+         <div class="input-group image-preview">
+                <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+             <!--   <span class="input-group-btn">
+                    <!-- image-preview-clear button -->
+                <!--    <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                        <span class="glyphicon glyphicon-remove"></span> Clear
+                    </button>
+                    <!-- image-preview-input -->
+                   <!-- <div class="btn btn-default image-preview-input">
+                        <span class="glyphicon glyphicon-folder-open"></span>
+                        <span class="image-preview-input-title">Browse</span>
+                        <input type="file" accept="image/png, image/jpeg, image/gif" name="image"/> <!-- rename it -->
+                    </div>
+                </span>
+            </div><!-- /input-group image-preview [TO HERE]-->
+        <br>
+        <!-- <input type = "submit" class="btn btn-primary"/>
+          </div>
+      </form>
+
+  </div>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      </body>
+</html>
